@@ -1,4 +1,81 @@
-@media only screen and (max-width:800px) and (min-width:100px){
+@media only screen and (max-width:600px) and (min-width:200px){
+    .navbar {
+        padding: 15px 5px;
+        box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.366);
+        font-weight: 800;
+        width: 110vw;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .mainContainer {
+        padding: 25px 0px;
+    }
+
+    .newtask {
+        text-align: center;
+    }
+
+    .plusSign {
+        border-radius: 50%;
+        color: var(--white);
+        background: var(--skyblue);
+    }
+    
+    .addNewtask{
+        display: none;
+    }
+
+    .cards{
+        width: 100vw;
+    }
+
+    .page2{
+        height: 1800px;
+        width: 100vw;
+    }
+
+    .popup1{
+        margin: 30% auto;
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    input[type=text]{
+        border-radius: 10px;
+    }
+
+    .page3container{
+        padding: 0px;
+    }
+
+    .page3Options{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .page3-cards{
+        width: 95vw;   
+        height: 280px;
+        font-size: 16px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.296);
+    }
+
+    .back{
+        text-align: left;
+        padding-inline: 5px;
+        font-size: 12px;
+        float: none;
+    }
+
+    
+} 
+@media only screen and (max-width:900px) and (min-width:600px){
     .navbar {
         padding: 15px 5px;
         box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.366);
@@ -74,4 +151,4 @@
     }
 
     
-}  
+}   
