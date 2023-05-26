@@ -66,6 +66,12 @@ body {
     padding-left: 5px;
 }
 
+.addNewtask:hover {
+    color: var(--skyblue);
+    transition: ease 0.2s;
+    text-decoration: underline  var(--skyblue);
+}
+
 
 
 h5 {
@@ -97,6 +103,11 @@ h5 a{
     background: white;
     border: 2px solid var(--border);
     margin: 5px;
+}
+.cards:hover {
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.371);
+    transition: ease 0.2s;
+    translate: 0px -10px;
 }
 
 .del {
@@ -138,6 +149,12 @@ h5 a{
     border-bottom: 2px solid var(--skyblue);
     color: var(--black);
 }
+
+.addnewtask-heading:hover {
+    letter-spacing: 2px;
+    transition: 0.3s ease-out;
+}
+
 .cross {
     float: right;
     font-size: 32px;
@@ -170,6 +187,14 @@ h5 a{
     border: 2px solid var(--skyblue);
     border-radius: 5px;
     margin: 10px 0px;
+}
+
+.addTaskbtn:hover {
+    background: var(--white);
+    border: 1px solid var(--skyblue);
+    color: var(--skyblue);
+    transition: ease 0.2s;
+    padding: 10px 32px;
 }
 
 /* Page-3 */
