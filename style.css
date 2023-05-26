@@ -111,12 +111,13 @@ h5 a{
 }
 
 .del {
+    font-size: 20px;
     text-decoration: line-through;
     color: var(--grey);
 }
 
 .checks {
-    font-size: 16px;
+    font-size: 20px;
     padding: 30px 0px;
     color: var(--black);
     padding: 25px 10px;
@@ -233,5 +234,5 @@ h5 a{
 /* page-4 */
 
 .page4{
-    height: 600px;
+    height: 100%;
 }
